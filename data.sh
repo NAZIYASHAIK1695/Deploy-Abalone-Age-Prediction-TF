@@ -6,8 +6,8 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 sudo systemctl status nginx
 sudo rm -r /etc/nginx/nginx.conf
-git clone https://github.com/amar-m-cloud/Abalone-Age-Prediction.git /home/ec2-user/
-cd /home/ec2-user/Abalone-Age-Prediction
+git clone https://github.com/amar-m-cloud/Abalone-Age-Prediction.git
+cd Abalone-Age-Prediction
 sudo cp -r nginx.conf /etc/nginx/
 sudo systemctl restart nginx
 pip3 install -r requirements.txt
